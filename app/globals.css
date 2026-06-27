@@ -2,13 +2,12 @@
 
 @theme inline {
   --color-navy: #1A1A2E;
-  --color-navy-border: rgba(255, 255, 255, 0.08);
   --color-orange: #FDA400;
   --color-yellow: #FBFF22;
   --color-lime: #D2FF42;
   --color-cyan: #11E8F6;
   --color-pink: #FF65BE;
-  --font-serif: var(--font-playfair);
+  --font-heading: var(--font-poppins);
   --font-sans: var(--font-dm-sans);
 }
 
@@ -27,10 +26,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3 {
-  font-family: var(--font-playfair), Georgia, serif;
-  font-weight: 600;
-  line-height: 1.15;
+h1, h2, h3, h4 {
+  font-family: var(--font-poppins), sans-serif;
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
 }
 
 *:focus-visible {
