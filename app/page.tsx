@@ -60,7 +60,7 @@ function Nav() {
   return (
     <nav className="fixed top-0 inset-x-0 z-50 bg-navy/80 backdrop-blur-xl border-b border-white/[0.06]">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        {/* Logo placeholder — James to replace */}
+        {/* Logo placeholder: James to replace */}
         <div className="flex items-center gap-2.5">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-orange to-yellow flex items-center justify-center">
             <span className="text-navy text-xs font-extrabold font-[family-name:var(--font-poppins)]">YAU</span>
@@ -218,7 +218,7 @@ function ChecklistPreview() {
       accent: "border-orange/30",
       bg: "bg-orange/[0.04]",
       title: "Property English Glossary",
-      body: "48 terms translated into plain language. Stamp duty, body corporate, conveyancing — finally explained clearly.",
+      body: "48 terms translated into plain language. Stamp duty, body corporate, conveyancing. Finally explained clearly.",
     },
     {
       accent: "border-cyan/30",
