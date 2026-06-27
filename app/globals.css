@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-navy: #1A1A2E;
+  --color-navy-light: #222240;
+  --color-navy-lighter: #2A2A50;
+  --color-orange: #FDA400;
+  --color-orange-hover: #FDB630;
+  --color-yellow: #FBFF22;
+  --color-lime: #D2FF42;
+  --color-cyan: #11E8F6;
+  --color-white: #FFFFFF;
+  --color-gray-400: #9CA3AF;
+  --font-poppins: var(--font-poppins), sans-serif;
+  --font-dm-sans: var(--font-dm-sans), sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background: var(--color-navy);
+  color: var(--color-white);
+  font-family: var(--font-dm-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Focus ring for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--color-orange);
+  outline-offset: 2px;
+}
+
+/* Smooth hover transitions */
+a, button {
+  transition: all 200ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a, button {
+    transition: none;
+  }
+}
