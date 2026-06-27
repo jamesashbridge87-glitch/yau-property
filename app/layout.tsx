@@ -15,7 +15,10 @@ const dmSans = DM_Sans({
   display: "swap",
 });
 
+const SITE_URL = "https://property.youraussieuncle.com.au";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "First Home Buyer Checklist | Your Aussie Uncle",
   description:
     "Your deposit is not your only cost. Get the free checklist that explains Australian property costs in plain English.",
@@ -23,7 +26,24 @@ export const metadata: Metadata = {
     title: "First Home Buyer Checklist | Your Aussie Uncle",
     description:
       "Your deposit is not your only cost. Get the free checklist that explains Australian property costs in plain English.",
+    url: SITE_URL,
+    siteName: "Your Aussie Uncle",
     type: "website",
+    images: [
+      {
+        url: `${SITE_URL}/hero.jpg`,
+        width: 1200,
+        height: 675,
+        alt: "James, Your Aussie Uncle",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "First Home Buyer Checklist | Your Aussie Uncle",
+    description:
+      "Your deposit is not your only cost. Get the free checklist that explains Australian property costs in plain English.",
+    images: [`${SITE_URL}/hero.jpg`],
   },
 };
 
