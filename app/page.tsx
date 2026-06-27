@@ -71,7 +71,7 @@ function Nav() {
           href="#checklist-form"
           className="bg-orange hover:bg-orange/90 text-[#1A1A2E] font-bold text-sm px-5 py-2.5 rounded-xl transition-all duration-200 font-sans shadow-lg shadow-orange/30 hover:shadow-orange/50"
         >
-          Get checklist
+          Download free checklist
         </a>
       </div>
     </nav>
@@ -186,7 +186,7 @@ function ProblemCards() {
             Sound familiar?
           </p>
           <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-white">
-            Nobody tells you this stuff
+            How to buy property without the hidden costs
           </h2>
         </div>
 
@@ -242,7 +242,7 @@ function ChecklistPreview() {
             Free download
           </span>
           <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-white mb-3">
-            What you will get
+            What is inside
           </h2>
           <p className="text-white/60 text-lg font-sans max-w-md mx-auto">
             A free checklist built for people who want clarity, not confusion.
@@ -295,10 +295,10 @@ function FormSection({
             Download now
           </p>
           <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-white mb-2">
-            Get the checklist
+            Get the free checklist
           </h2>
           <p className="text-white/60 font-sans">
-            Free. No spam. Just clarity.
+            Free download. No spam, no nonsense.
           </p>
         </div>
 
@@ -377,10 +377,10 @@ function FormSection({
                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                     <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                   </svg>
-                  Sending...
+                  Sending your checklist...
                 </>
               ) : (
-                "Send me the checklist"
+                "Get Your Free Checklist"
               )}
             </button>
 
